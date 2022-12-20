@@ -1,0 +1,28 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.list-container {
+  list-style-type: none;
+  padding: 0;
+}
+
+.title {
+  font-family: 'Roboto';
+  font-size: 32px;
+  color: black;
+  margin-bottom: 30px;
+}
+.searchbar {
+  border: 1px solid grey;
+  border-radius: 5px;
+  height: 32px;
+  font-size: 18px;
+  padding: 2px 23px 2px 30px;
+  outline: 0;
+  background-color: blue;
+  color: #ffffff;
+}
